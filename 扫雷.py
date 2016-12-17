@@ -19,6 +19,7 @@ class item:
         self.back.setFill("light pink")
         if self.t !=3:
             self.back.draw(win)
+        print "blabla"
             
     def display(self):
         if self.flagcon==0:
